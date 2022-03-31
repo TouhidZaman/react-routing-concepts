@@ -1,0 +1,17 @@
+.friendsContainer {
+   max-width: 1200px;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+}
+
+/* Adjustments For Mobile view  */
+@media screen and (max-width: 768px) {
+   .friendsContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}

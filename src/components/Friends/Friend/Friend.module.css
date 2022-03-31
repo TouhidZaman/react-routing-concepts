@@ -1,0 +1,60 @@
+.friend {
+   /* height: 340px; */
+   display: flex;
+   justify-content: center;
+}
+
+.friendCard {
+   width: 250px;
+   background-color: white;
+   box-shadow: 1px 2px 3px rgb(0 0 0 / 0.3);
+   border-radius: 10px;
+   position: relative;
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.friendName {
+   font-family: "Lato";
+   color: dimgray;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 25px;
+   margin-top: 7px;
+   margin-bottom: 30px;
+}
+
+.action {
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.friendDetailsButton {
+   font-weight: bold;
+   font-size: 18px;
+   background: none;
+   color: green;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.friendDetailsButton:hover {
+   color: orange;
+}
+
+.friendDetailsButton:active {
+   color: tomato;
+}
+
+/* Adjustments For Mobile view  */
+/* @media screen and (max-width: 768px) {
+  
+} */
