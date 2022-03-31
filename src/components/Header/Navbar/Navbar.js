@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
+import CustomLink from "./CustomLink/CustomLink";
 
 const Navbar = () => {
    return (
@@ -9,13 +9,13 @@ const Navbar = () => {
             <h1>React Routing App</h1>
             <ul className={styles.navItems}>
                <li>
-                  <Link to="/">Home</Link>
+                  <CustomLink to="/">Home</CustomLink>
                </li>
                <li>
-                  <Link to="/friends">Friends</Link>
+                  <CustomLink to="/friends">Friends</CustomLink>
                </li>
                <li>
-                  <Link to="/about">About</Link>
+                  <CustomLink to="/about">About</CustomLink>
                </li>
             </ul>
          </div>

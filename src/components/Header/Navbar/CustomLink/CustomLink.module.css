@@ -1,0 +1,19 @@
+.link {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 18px;
+   margin-left: 10px;
+   background: -webkit-linear-gradient(#444f5f8f, #374356);
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.link.active {
+   background: -webkit-linear-gradient(#4cfd208f, #374356);
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
