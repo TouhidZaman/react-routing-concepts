@@ -15,6 +15,9 @@ const Navbar = () => {
                   <CustomLink to="/friends">Friends</CustomLink>
                </li>
                <li>
+                  <CustomLink to="/posts">Posts</CustomLink>
+               </li>
+               <li>
                   <CustomLink to="/about">About</CustomLink>
                </li>
             </ul>

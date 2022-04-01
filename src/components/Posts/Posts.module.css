@@ -1,0 +1,30 @@
+.postsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.postsTitle {
+    /* background: -webkit-linear-gradient(#444f5f8f, #374356); */
+    background: -webkit-linear-gradient(#4cfd208f, #374356);
+    font-weight: 600;
+    font-size: 24px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+.postsContainer ul {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.postsContainer ul li{
+    list-style: none;
+}

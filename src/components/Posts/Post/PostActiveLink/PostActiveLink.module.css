@@ -1,0 +1,11 @@
+.link {
+   background-color: bisque;
+   padding: 5px 10px;
+   box-sizing: border-box;
+   color: lightslategray;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.link.active {
+   background-color:lightgreen;
+}
