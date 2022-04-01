@@ -1,0 +1,60 @@
+.friendDetails {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.friendDetailsTitle {
+   /* background: -webkit-linear-gradient(#444f5f8f, #374356); */
+   background: -webkit-linear-gradient(#4cfd208f, #374356);
+   font-weight: 600;
+   font-size: 24px;
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.friendCard {
+   /* width: 250px; */
+   background-color: white;
+   box-shadow: 1px 2px 3px rgb(0 0 0 / 0.3);
+   border-radius: 10px;
+   position: relative;
+   box-sizing: border-box;
+   padding: 20px 30px;
+}
+
+.friendImage {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.friendImage img {
+   width: 70%;
+   border-radius: 50%;
+}
+
+.friendInfo {
+   text-align: initial;
+   color: dimgray;
+}
+
+.friendName {
+   background: -webkit-linear-gradient(#444f5f8f, #374356);
+   font-weight: 600;
+   font-size: 24px;
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 21px;
+   line-height: 25px;
+   margin-top: 20px;
+   margin-bottom: 7px;
+}
+
+.friendEmail {
+    text-transform: lowercase;
+}

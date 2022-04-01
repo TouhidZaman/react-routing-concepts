@@ -8,7 +8,7 @@ const Friend = ({ friend }) => {
 
    // Navigating to Friend Details Component
    const viewFriendDetails = () => {
-      const path = `/friends/friend/${id}`;
+      const path = `/friend/${id}`;
       navigate(path);
    };
 
